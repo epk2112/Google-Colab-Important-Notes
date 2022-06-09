@@ -1,0 +1,8 @@
+import shutil
+
+shutil.make_archive('outputPath', 'zip', 'sourceFolder')
+
+
+# where outputPath is the path of the output file without extension
+# eg /content/sample_data/test  #the last word (test) will be the file name
+# also you can create any output path and the folders will be created automatically

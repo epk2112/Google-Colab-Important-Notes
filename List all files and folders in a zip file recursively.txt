@@ -1,0 +1,4 @@
+import zipfile
+
+with zipfile.ZipFile("/content/testFolder/archive.zip", mode="r") as archive:
+  archive.printdir()

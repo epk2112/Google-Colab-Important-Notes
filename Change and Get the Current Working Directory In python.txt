@@ -1,0 +1,13 @@
+To find the current working directory in Python, use os.getcwd(), and 
+to change the current working directory, use os.chdir(path)
+
+example:
+
+# First Import the os module
+import os
+
+# Get the current working directory
+cwd = os.getcwd()
+
+# Change the current working directory
+os.chdir('/tmp')

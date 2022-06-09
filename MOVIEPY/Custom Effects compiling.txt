@@ -1,0 +1,5 @@
+from moviepy.editor import *
+clip = (VideoFileClip("myvideo.avi")
+        .fx( vfx.resize, width=460) # resize (keep aspect ratio)
+        .fx( vfx.speedx, 2) # double the speed
+        .fx( vfx.colorx, 0.5)) # darken the picture

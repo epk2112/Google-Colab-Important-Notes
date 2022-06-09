@@ -1,0 +1,8 @@
+import os
+import shutil
+sourcepath='/content/sample_data'
+sourcefiles = os.listdir(sourcepath)
+destinationpath = '/content/ImagesDown'
+for file in sourcefiles:
+    if file.endswith('.csv'):
+        shutil.move(os.path.join(sourcepath,file), os.path.join(destinationpath,file))

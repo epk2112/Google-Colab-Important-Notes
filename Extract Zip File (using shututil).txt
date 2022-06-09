@@ -1,0 +1,5 @@
+import shutil
+
+shutil.unpack_archive('nameofZipFile.zip', 'DestinationFolder')
+
+# On the Destination Folder you can put any path it will be automatically created on Extraction

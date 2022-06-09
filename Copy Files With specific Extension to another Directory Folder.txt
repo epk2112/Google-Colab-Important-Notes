@@ -1,0 +1,8 @@
+from pathlib import Path
+import shutil
+
+src_path = '/content/sample_data'
+trg_path = '/content/ImagesDown'
+
+for src_file in Path(src_path).glob('*.csv'):
+    shutil.copy(src_file, trg_path)
